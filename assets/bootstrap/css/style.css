@@ -1,0 +1,87 @@
+/* Global 
+====================*/
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	background: url(img/bg.png);
+}
+body{
+	margin-top: 70px;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+header, nav, section{
+	width: 450px;
+	margin: 0 auto 0px auto;
+}
+
+/* header 
+====================*/
+header{
+	padding: 10px 0;
+}
+
+/* Menu 
+====================*/
+#twd-menu{
+	margin-bottom:20px;
+}
+.normal{
+	padding: 10px;background: #B16B67;
+}
+#twd-menu ul{
+	list-style-type: none;
+	padding: 0;
+}
+	#twd-menu ul li{
+		display: inline-block;
+	}
+		#twd-menu ul li a{
+			display: inline-block;
+			padding:10px;
+			border-radius: 10px;
+			color: #ddd;
+		}
+			#twd-menu ul li a:hover{
+				background:black;
+				color: #fff;
+			}
+
+	/* Menu When Scroll */
+	.fixed {
+		position: fixed;
+		top: -5px;
+		left: 0;
+		width: 100%;
+		padding: 10px;
+		background: #0B7271;
+		color: #f8f8f8;
+		-webkit-transition: top 400ms ease 0s;
+		-moz-transition: top 400ms ease 0s;
+		-o-transition: top 400ms ease 0s;
+		-ms-transition: top 400ms ease 0s;
+		transition: top 400ms ease 0s;
+		box-shadow: 0 0 40px #222;
+		-webkit-box-shadow: 0 0 40px #222;
+		-moz-box-shadow: 0 0 40px #222;
+	}
+	.fixed ul{
+		width: 450px;
+		margin: 0 auto;
+	}
+
+
+/* Content
+=================*/
+aside{
+	padding: 50px 10px;
+
+}
+aside h2{
+	margin: 20px 0;
+}
