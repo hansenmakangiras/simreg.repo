@@ -25,7 +25,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://localhost/ci_pmk';
+$config['base_url'] = 'http://localhost/simreg.repo';
 
 /*
 |--------------------------------------------------------------------------

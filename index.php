@@ -25,7 +25,7 @@ date_default_timezone_set('Asia/Jakarta');
 	
    switch (dirname(__FILE__))
     {
-        case 'D:\Data Website\Web\ci_pmk':
+        case 'D:\Data Website\Web\simreg.repo':
             define('ENVIRONMENT', 'development');
             break;
             
