@@ -6,7 +6,7 @@
  * Email : hansenmakangiras@gmail.com
  * Website : www.hansenmoko.web.id
  */
- *
+
 class Dashboard extends Frontend_Controller
 {
     public $data = array();   
