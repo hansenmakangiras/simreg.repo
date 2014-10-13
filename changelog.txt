@@ -5,3 +5,4 @@ PMK LP3I Makassar v.0.1
 - added ion-auth for security
 - added theme for backend/admin
 - added project to github
+- added .htaccess
