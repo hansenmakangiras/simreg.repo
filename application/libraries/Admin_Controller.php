@@ -11,10 +11,9 @@ class Admin_Controller extends MY_Controller {
 		parent::__construct ();
 		
 		$this->data ['meta_title'] = "PMK LP3I Makassar";
-		$this->load->helper ( 'form' );
-		$this->load->library ( 'form_validation' );
-		$this->load->library ( 'session' );
-		$this->load->model ( 'user_model' );
+		$this->load->helper(array('form'));
+		$this->load->library(array('form_validation','session'));
+		$this->load->model(array('user_model'));
 		
 //		// Cek Login
 //		$exceptions_uris = array (
