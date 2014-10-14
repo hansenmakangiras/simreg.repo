@@ -14,16 +14,18 @@ class Dashboard extends Frontend_Controller
     public function __construct() {
         parent::__construct();
         $this->data['errors'] = array();
-        //$this->data['site_name'] = config_item('site_name');
+        
+        $this->data['site_title'] = config_item('site_title');
+        $this->data['deskripsi'] = config_item('deskripsi');
         $this->data ['meta_title'] = "PMK LP3I Makassar";
+        
     }
     
     public function index()
     {
-        $this->load->view('frontend/beranda', $this->data);
+        $this->data['content'] = 'frontend/pages/beranda';
+        $this->load->view('frontend/_layout_frontend', $this->data);
     }
-    
-    
     
 }
 

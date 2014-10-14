@@ -43,6 +43,11 @@ $route['404_override'] = '';
 
 $route['login'] = "auth/login";
 $route['logout'] = "auth/logout";
+$route['divisi'] = "home/divisi";
+$route['profil'] = "home/profil";
+$route['blog'] = "home/blog";
+$route['donasi'] = "home/donasi";
+$route['kegiatan'] = "home/kegiatan";
 
 
 /* End of file routes.php */

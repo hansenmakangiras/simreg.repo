@@ -9,6 +9,11 @@
             <file>file:/C:/xampp/htdocs/ci_simakad/asset/bootstrap/css/bootstrap-theme.css</file>
             <file>file:/C:/xampp/htdocs/ci_simakad/asset/bootstrap/css/bootstrap.css</file>
         </group>
-        <group/>
+        <group>
+            <file>file:/D:/Webserver/Web/simreg.repo/application/views/frontend/_layout_frontend.php</file>
+            <file>file:/D:/Webserver/Web/simreg.repo/application/views/frontend/pages/profil-pmk.php</file>
+            <file>file:/D:/Webserver/Web/simreg.repo/application/config/routes.php</file>
+            <file>file:/D:/Webserver/Web/simreg.repo/application/controllers/home/dashboard.php</file>
+        </group>
     </open-files>
 </project-private>

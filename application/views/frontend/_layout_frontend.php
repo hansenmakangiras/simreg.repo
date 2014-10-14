@@ -31,7 +31,7 @@
     </div>
 </header>
 <br>
-    <?php echo $this->load->view('frontend/pages/beranda') ;?>
+    <?php echo $this->load->view($content) ;?>
     
 
  <?php echo $this->load->view('frontend/components/footer');
