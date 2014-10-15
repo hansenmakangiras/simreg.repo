@@ -1,0 +1,13 @@
+{
+    "name": "oracle/s-i-s-f-o-p-m-k",
+    "description": "Description of project SISFO PMK.",
+    "authors": [
+        {
+            "name": "Tomas Mysik",
+            "email": "tomas.mysik@oracle.com"
+        }
+    ],
+    "require": {
+
+    }
+}
