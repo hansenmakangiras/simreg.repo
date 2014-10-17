@@ -1,13 +1,41 @@
 {
-    "name": "oracle/s-i-s-f-o-p-m-k",
-    "description": "Description of project SISFO PMK.",
+    "name": "sisfopmk/sisfopmk",
+    "description": "SISFO PMK",
+    "type": "project",
     "authors": [
         {
-            "name": "Tomas Mysik",
-            "email": "tomas.mysik@oracle.com"
+            "name": "Hansen Makangiras",
+            "email": "hansenmakangiras@gmail.com"
         }
     ],
     "require": {
-
-    }
+        "twig/twig": "1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "app/commands",
+            "app/controllers",
+            "app/models",
+            "app/database/migrations",
+            "app/database/seeds",
+            "app/tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
 }
