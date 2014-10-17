@@ -10,8 +10,7 @@
             <file>file:/C:/xampp/htdocs/ci_simakad/asset/bootstrap/css/bootstrap.css</file>
         </group>
         <group>
-            <file>file:/D:/Webserver/Web/simreg.repo/application/views/admin/components/top-link.php</file>
-            <file>file:/D:/Webserver/Web/simreg.repo/application/views/admin/components/sidebar.php</file>
+            <file>file:/E:/Webserver/Web/simreg.repo/application/controllers/auth.php</file>
         </group>
     </open-files>
 </project-private>
