@@ -10,31 +10,31 @@
                     <li>
                         <a href="javascript:;" title="Components">
                             <i class="glyph-icon icon-code"></i>
-                            Akademik
+                            Master Data
                         </a>
                         <ul>
                             <li>
                                 <a href="<?php site_url('admin/berita')?>" title="Berita">
                                     <i class="glyph-icon icon-chevron-right"></i>
-                                    Data Instruktur
+                                    Data Anggota
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Informasi">
                                     <i class="glyph-icon icon-chevron-right"></i>
-                                    Data Taruna
+                                    Data Alumni
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Pendaftaran">
                                     <i class="glyph-icon icon-chevron-right"></i>
-                                    Data Pendaftaran
+                                    Data Agama
                                 </a>
                             </li>
                             <li>
                                 <a href="#" title="Alumni">
                                     <i class="glyph-icon icon-chevron-right"></i>
-                                    Data Mata Pelajaran
+                                    Data Informasi
                                 </a>
                             </li>
                             <li>

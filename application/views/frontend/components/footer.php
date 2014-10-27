@@ -2,22 +2,18 @@
     ================================================== -->
     <footer class="footer">
       <div class="container">
-        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <p>Designed and built with all the love in the world by <a href="http://twitter.com/hansenvostro" target="_blank">@hansenvostro</a>.</p>
+        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, <a href="http://www.apache.org/licenses/MIT-2.0">MIT License</a>.</p>
+        
         <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
+          <li><a href="http://pmklp3imks.org">Website</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twbs/bootstrap/issues?state=open">Issues</a></li>
+          <li><a href="https://info@pmklp3imks.org">Email</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twbs/bootstrap/releases">Changelog</a></li>
+          <li><a href="maharas.co.id">Developer</a></li>
         </ul>
       </div>
     </footer>
-
-
-
-
 
 <!-- Le javascript
     ================================================== -->
@@ -35,11 +31,15 @@
     <script src="<?php echo base_url('assets/bootstrap/js/bootstrap-collapse.js'); ?>"></script>
     <script src="<?php echo base_url('assets/bootstrap/js/bootstrap-carousel.js'); ?>"></script>
     <script src="<?php echo base_url('assets/bootstrap/js/bootstrap-typeahead.js'); ?>"></script>
-	<script src="<?php echo base_url('assets/bootstrap/js/bootstrap-affix.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/bootstrap-affix.js'); ?>"></script>
 
-<script src="<?php echo base_url('assets/bootstrap/js/jquery-1.11.1.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.js'); ?>"></script>
-<script src="<?php echo base_url('assets/bootstrap/js/google-code-prettify/prettify.js'); ?>"></script>
-<script src="<?php echo base_url('assets/bootstrap/js/holder/holder.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/jquery-1.11.1.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/google-code-prettify/prettify.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/holder/holder.js'); ?>"></script>
 </body>
 </html>
+
+
+
+ <!-- End of File Footer.php location views/frontend/components/footer.php -->

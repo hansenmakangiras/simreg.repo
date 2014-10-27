@@ -41,13 +41,37 @@ $route['default_controller'] = "home/dashboard";
 //$route['default_controller'] = "auth";
 $route['404_override'] = '';
 
-$route['login'] = "auth/login";
-$route['logout'] = "auth/logout";
-$route['divisi'] = "home/divisi";
-$route['profil'] = "home/profil";
-$route['blog'] = "home/blog";
-$route['donasi'] = "home/donasi";
-$route['kegiatan'] = "home/kegiatan";
+// Route Untuk Auth
+$route['login'] = "admin/auth/login";
+$route['logout'] = "admin/auth/logout";
+$route['change_password'] = "admin/auth/change_password";
+$route['forgot_password'] = "admin/auth/forgot_password";
+$route['reset_password'] = "admin/auth/reset_password";
+$route['deactivate_user'] = "admin/auth/deactivate_user";
+$route['create_user'] = "admin/auth/create_user";
+$route['edit_user'] = "admin/auth/edit_user";
+$route['create_group'] = "admin/auth/create_group";
+$route['edit_group'] = "admin/auth/edit_group";
+
+//Route Untuk Halaman Home
+$route['divisi'] = "home/dashboard/divisi";
+$route['tentang-kami'] = "home/dashboard/tentang_kami";
+$route['blog'] = "home/dashboard/blog";
+$route['donasi'] = "home/dashboard/donasi";
+$route['gallery'] = "home/dashboard/gallery";
+$route['contact'] = "home/dashboard/contact";
+
+//Route Untuk Halaman Admin
+$route['admin'] = "admin/dashboard";
+$route['user/login'] = "admin/user/login";
+
+/*
+$route['admin/([a-zA-Z_-]+)/(:any)'] = '$1/admin/$2';
+$route['admin/login'] = 'admin/login';
+$route['admin/logout'] = 'admin/logout';
+$route['admin/([a-zA-Z_-]+)'] = '$1/admin/index';
+$route['admin'] = 'admin';
+*/
 
 
 /* End of file routes.php */

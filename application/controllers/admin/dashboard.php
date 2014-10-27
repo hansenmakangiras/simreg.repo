@@ -7,8 +7,7 @@
  */
 
 class Dashboard extends Admin_Controller {
-    public $data = array();
-    
+  
     public function __construct() {
         parent::__construct();
         

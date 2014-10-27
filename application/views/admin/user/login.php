@@ -101,6 +101,4 @@
 
 </div>
 
-</div>
-
-<?php echo $this->load->view('admin/components/footer'); ?>
+<?php echo $this->load->view('admin/components/footer');

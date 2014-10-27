@@ -23,8 +23,24 @@ class Dashboard extends Frontend_Controller
     
     public function index()
     {
-        $this->data['content'] = 'frontend/pages/beranda';
-        $this->load->view('frontend/_layout_frontend', $this->data);
+        $this->data['content'] = 'public/partial/main_info';
+        $this->load->view('public/_layout_public', $this->data);
+    }
+    public function tentang_kami(){
+        $data['content'] = 'public/pages/tentang-kami';
+        $this->load->view('public/_layout_public', $data);
+    }
+    public function blog(){
+        $data['content'] = 'public/pages/blog';
+        $this->load->view('public/_layout_public', $data);
+    }
+    public function gallery(){
+        $data['content'] = 'public/pages/gallery';
+        $this->load->view('public/_layout_public', $data);
+    }
+    public function contact(){
+        $data['content'] = 'public/pages/contact';
+        $this->load->view('public/_layout_public', $data);
     }
     
 }

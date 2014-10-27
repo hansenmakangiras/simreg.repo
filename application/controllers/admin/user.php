@@ -61,7 +61,7 @@ class User extends Admin_Controller {
 
     public function login() {
         // Redirect user bila sudah berhasil login
-        $dashboard = 'admin/backend';
+        $dashboard = 'admin';
         
         $this->user_model->loggedin() == FALSE || redirect($dashboard);
         
@@ -79,14 +79,14 @@ class User extends Admin_Controller {
                 redirect($dashboard);
             } else {
                 $this->session->set_flashdata('Error', 'Kombinasi Email / Pass anda tidak tersedia');
-                redirect('admin/user/login', 'refresh');
+                redirect('admin/layout_login', 'refresh');
             }
         }   
 
         // Menampilkan halaman login
         
-        $this->data['subview'] = 'admin/user/login';
-        $this->load->view('admin/user/login', $this->data);
+        //$this->data['subview'] = 'admin/user/login';
+        $this->load->view('admin/layout_login');
     }
     
     public function logout() {
