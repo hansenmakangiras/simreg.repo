@@ -1,11 +1,15 @@
         <div id="templatemo_middle">
             <div id="mid_title">
-                Lorem ipsum dolor sit amet	
+                Selamat Datang Di Website PMK LP3I Makassar	
             </div>
 
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam est risus, lacinia id condimentum at, laoreet ac lectus. Fusce luctus augue quis nunc lobortis dictum. Nullam et lacus mauris, vitae imperdiet urna. Nulla ac lectus sapien. </p>
+            <p>
+                Ini adalah website resmi PMK LP3I Makassar yang dibuat oleh Divisi Infomedia PMK LP3I Makassar, untuk memudahkan dalam memberikan informasi
+                Seputar PMK LP3I Makassar sehubungan dengan Program Kerja Pengurus dan juga informasi Alumni serta informasi lainnya yang dirasa perlu untuk
+                disampaikan.
+            </p>
 
-            <div id="learn_more"><a href="#">Learn More</a></div>
+            <div id="learn_more"><a href="#">Selanjutnya</a></div>
 
             <div class="cleaner"></div>
         </div> <!-- end of middle -->

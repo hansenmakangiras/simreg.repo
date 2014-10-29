@@ -10,10 +10,13 @@
             <file>file:/C:/xampp/htdocs/ci_simakad/asset/bootstrap/css/bootstrap.css</file>
         </group>
         <group>
-            <file>file:/E:/Webserver/Web/simreg.repo/application/views/public/_layout_public.php</file>
+            <file>file:/E:/Webserver/Web/simreg.repo/application/views/admin/auth/login.php</file>
+            <file>file:/E:/Webserver/Web/simreg.repo/application/views/admin/layout_login.php</file>
             <file>file:/E:/Webserver/Web/simreg.repo/application/controllers/admin/auth.php</file>
             <file>file:/E:/Webserver/Web/simreg.repo/application/config/routes.php</file>
+            <file>file:/E:/Webserver/Web/simreg.repo/application/views/admin/auth/forgot_password.php</file>
             <file>file:/E:/Webserver/Web/simreg.repo/application/config/config.php</file>
+            <file>file:/E:/Webserver/Web/simreg.repo/application/views/admin/user/login.php</file>
         </group>
     </open-files>
 </project-private>

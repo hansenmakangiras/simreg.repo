@@ -5,7 +5,7 @@
     Form Pack
     http://www.templatemo.com/preview/templatemo_418_form_pack 
     -->
-    <title>User Login</title>
+    <title>PMK LP3I Makassar</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta charset="UTF-8">
@@ -20,14 +20,16 @@
 <body class="templatemo-bg-image-1">
     <div class="container">
         <div class="col-md-12">	
-            <?php echo form_open("auth/login",'id="login-validation" class="form-horizontal templatemo-login-form-2" role="form" method="post" ');?>
+            <?php echo form_open("login",'id="login-validation" class="form-horizontal templatemo-login-form-2" role="form" method="post" ');?>
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>PMK LP3I Makassar Login</h1>
+                        <h1><?php echo lang('login_heading');?></h1>                      
+                        <?php echo lang('login_subheading');?>
                     </div>
-                </div>
+                </div><hr>
                 <div class="row">
                     <div class="templatemo-one-signin col-md-6">
+                        <?php echo $message;?>
                         <div class="form-group">
                             <div class="col-md-12">		          	
                                 <label for="identity" class="control-label"><?php echo lang('login_identity_label', 'identity');?></label>
@@ -58,8 +60,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-md-12">
-                                <input type="submit" value="LOG IN" class="btn btn-warning">
+                            <div class="col-md-12">                                
+                                <button type="submit" value="LOG IN" class="btn btn-warning">LOG IN</button>
                             </div>
                         </div>
                         <div class="form-group">
@@ -81,6 +83,7 @@
                         <a class="btn btn-block btn-social btn-google-plus">
                             <i class="fa fa-google-plus"></i> Sign in with Google
                         </a>
+                        
                     </div>   
                 </div>				 	
             <?php echo form_close();?>		      		      
