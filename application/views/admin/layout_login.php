@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <!-- templatemo 418 form pack -->
-    <!-- 
-    Form Pack
-    http://www.templatemo.com/preview/templatemo_418_form_pack 
-    -->
+    
     <title>PMK LP3I Makassar</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
